@@ -1,0 +1,20 @@
+{
+  "name": "electron-packager-prune-issue-repro",
+  "version": "1.0.0",
+  "description": "Repro for electron-packager issue",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "test": "out/Testing-m"
+
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.0",
+    "electron": "^26.0.0",
+    "electron-forge": "^5.2.4"
+  },
+  "dependencies": {
+    "electron-unhandled": "^4.0.1"
+  }
+}
