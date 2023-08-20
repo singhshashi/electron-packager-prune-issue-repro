@@ -1,5 +1,5 @@
 # electron-packager-prune-issue-repro
-Repro issue with prune when using electron packager. 
+Repro issue with Packaging with electron-forge
 
 There are two branches in this repo. THe main branch where the code works as expected and the bugWithPackager branch where the issue exists. 
 
